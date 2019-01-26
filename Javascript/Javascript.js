@@ -223,10 +223,12 @@ if (demo2Check) {
 });
 
 
+
+
 $(window).on('load', function () {
     $(".loading").animate({
         "top": "-100%"
-    }, 2000, function () {
+    }, 500, function () {
         $(this).remove();
     });
 });

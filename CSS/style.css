@@ -1,10 +1,13 @@
 body {
+    font-family: 'Montserrat', Arial, sans-serif;
+    overflow: hidden;
     background-color: rgb(44, 62, 80);
 }
 
 p {
     color: #BBB;
 }
+
 
 .control-bar {
     height: 100%;
@@ -116,9 +119,108 @@ p {
     
 }
 
+
+.kayo-icon-box-container {
+  padding: 30px;
+  position: relative;
+}
+
+
+.section-intro .kayo-icon-box-container .kayo-icon-box {
+  width: 120px;
+  height: 120px;
+  transition: all 0.5s ease-in-out 0s;
+  text-align: center;
+  display: inline-block;
+  transform: rotate(45deg);
+  background: #2c3e50;
+
+}
+
+.section-intro h1 {
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 1;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+}
+
+
+.kayo-icon-box-container .kayo-icon-box .kayo-icon {
+  line-height: 120px;
+}
+
+.kayo-icon-box-container .kayo-icon-box:after {
+  content: "";
+  position: absolute;
+  left: calc(50% - 60px);
+  width: 120px;
+  bottom: -7px;
+  border-bottom: 3px solid #2c3e50;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+
+
+.kayo-icon-box-container .kayo-icon-box:before {
+  content: "";
+  position: absolute;
+  left: calc(50% - 60px);
+  width: 120px;
+  top: -7px;
+  border-bottom: 3px solid #2c3e50;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+.section-intro .kayo-icon-box-container .kayo-icon-box:hover {
+    background: #1894ff;
+}
+
+.kayo-icon-box-container .kayo-icon-box:hover:after , 
+.kayo-icon-box-container .kayo-icon-box:hover:before
+ {
+  border-bottom-color: #1894ff;
+}
+
+.kayo-icon-box-container .kayo-icon-box .kayo-icon {
+  transform: rotate(-45deg);
+  font-size: 50px;
+  line-height: 80px;
+  line-height: 120px;
+}
+
+
+.glyphicon-user {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.section-intro .kayo-icon-box-container .kayo-icon-box .kayo-icon {
+  line-height: 120px;
+}
+
+
+
+.section-intro .kayo-icon-box-container .kayo-icon-box .glyphicon-user::before{
+  font-family: 'Font Awesome\ 5 Free';
+  content: "\f007";
+  color: #FFFFFF;
+}
+
+
 .kayo-links {
   border-top: 1px solid #22303e;
-  display: inline
+  display: inline;
 }
 
 #myTab li a:hover {
@@ -223,6 +325,7 @@ p {
 .overlay {
     background: rgba(44, 62, 80, 0.5);
     height: 100%;
+    padding: 90px 0;
 }
 
 .intro-section {
