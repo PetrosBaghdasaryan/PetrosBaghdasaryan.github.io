@@ -1,0 +1,820 @@
+body {
+    background-color: rgb(44, 62, 80);
+}
+
+p {
+    color: #BBB;
+}
+
+.control-bar {
+    height: 100%;
+    width: 44px;
+    float: left;
+    position: relative;
+    z-index: 999;
+    box-shadow: 0 0 25px 1px #1b2838;
+    background: #2c3e50;
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 1.42857143;
+}
+
+.myProfile {
+    padding: 25px 0px 10px 25px;
+    width: 230px;
+    color: #869cb1;
+    transition: all 0.5s ease-in-out 0s;
+    position: fixed;
+    left: 44px;
+} 
+
+
+
+.social-media {
+    margin-bottom: 0;
+    border-bottom: 1px solid #3a4a5d;
+    overflow: hidden;
+}
+
+.social-media li a {
+    padding: 10px;
+    display: inline-block;
+    width: 100%;
+    cursor: pointer;
+    text-align: center;
+    border-right: 1px solid #3a4a5d;
+    border-left: 1px solid #22303e;
+    position: relative;
+}
+
+#myTab li a span i {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 12px;
+    transition: all 0.2s ease-in-out 0s;
+    box-shadow: 0 0 15px 0px #1b2838;
+}
+
+
+.slide-menu-container .slide-menu {
+    position: relative;
+    box-shadow: 0 0 25px 1px #1b2838;
+
+}
+
+.control-bar .copyright {
+    position: absolute;
+    bottom: -30px;
+    white-space: nowrap;
+    margin: 0;
+    transform-origin: left top;
+    line-height: 44px;
+    text-transform: uppercase;
+    transform: rotate(-90deg);
+    font-size: 16px;
+    color: #788195;
+}
+
+.control-bar .copyright i {
+    margin-left: 3px;
+    transform: rotate(90deg);
+    color: #1894ff;
+}
+  
+#myTab .active a {
+    background-color: #2c3e50 !important;
+    border: 1px solid #3a4a5d !important;
+    color: white !important;
+}
+
+#myTab li .active:hover {
+    border: none !important;
+}
+
+
+
+#myTab  .active i {
+    background-color: rgb(24, 148, 255);
+}
+
+#myTab li a  {
+    color: #869cb1;
+    display: block;
+    padding: 10px 14px;
+    text-decoration: none;
+    border-top: 1px solid #3a4a5d;
+    border-bottom: 1px solid #22303e;
+    transition: all 0.2s ease-in-out 0s;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    font-size: 13px;
+    
+}
+
+.kayo-links {
+  border-top: 1px solid #22303e;
+  display: inline
+}
+
+#myTab li a:hover {
+    color: white;
+}
+
+
+
+.social-media li i {
+    color: #FFF;          /****    SOCIAL UL LI       *****************************************************************************************************/ 
+    text-align: center;
+    transition: all 0.2s ease-in-out 0.2s;
+    
+}
+
+.social-media li {
+    border-right: 1px solid #3a4a5d;
+    float: left;
+    width: 25%;
+}
+
+.social-media .linkedin:hover {
+    background: #4060A5;            /******  LINKEDIN IN HOVER  *****************************************************************************************************/
+}
+
+
+.social-media .gmail:hover {
+    background: #db4437;      /******  Gmail IN HOVER  *****************************************************************************************************/
+}
+
+
+.social-media .github:hover {
+    background: black;      /******  GITHUB IN HOVER  *****************************************************************************************************/
+}
+
+.social-media .contact:hover {
+    background: green;      /******  CALL IN HOVER  *****************************************************************************************************/
+}
+
+
+
+
+.Menu-style {
+    position: relative;
+    box-shadow: 0 0 25px 1px #1b2838;
+}
+
+
+
+.main-page-content {
+    width: calc(100% - 325px);
+    margin-left: 300px;
+    margin-right: 25px;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+
+
+.kayo-img-box {
+    padding: 10px;
+}
+
+.kayo-img {
+    display: block;
+    border: 5px solid rgba(120, 129, 149, 0.19);
+}
+
+.kayo-img img {
+    width: 100%;
+    padding: 5px;
+    opacity: 0.5;
+}
+
+
+.main-page-content > section {
+    padding: 25px 0;
+}
+
+.full-page {
+    height: 100vh;
+    overflow: visible !important;
+} 
+
+
+.home {
+    background: url(../images/IMG_7056.JPG) center center no-repeat scroll;
+    background-size: cover;
+}
+
+
+.overlay-container {
+    height: 100%;
+    border: 5px solid #3a4a5d;
+    border-radius: 3px;
+}
+
+.home {
+    overflow: hidden;
+    outline: none;
+}
+
+.overlay {
+    background: rgba(44, 62, 80, 0.5);
+    height: 100%;
+}
+
+.intro-section {
+    vertical-align: middle;
+    height: 100%;
+    overflow: hidden;
+    
+    
+}
+
+.display-table {
+    display: table;
+    width: 100%;
+}
+
+.kayo-container {
+    padding: 0 60px;
+    overflow: hidden;
+}
+
+.display-table-cell {
+    display: table-cell;
+    vertical-align: middle;
+
+}
+
+.home .intro-section .kayo-hello {
+    margin: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #BBB;
+}
+
+
+.home .intro-section .mr-kayo {
+    font-size: 50px;
+    margin: 10px 0;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    line-height: 1;
+    color: #FFFFFF
+}
+
+
+.home .intro-section .kayo-work-description {
+    margin: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #BBB;
+}
+
+
+
+
+.aboutMe .kayo-intro-section {
+  background: url("../images/bg2.JPG") center center no-repeat fixed;
+  background-size: cover;
+}
+
+
+
+
+
+
+/* Start Site Loading
+================================= */
+.loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+  background: #2c3d4e;
+}
+.loading .sk-folding-cube {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  -webkit-transform: rotateZ(45deg);
+  transform: rotateZ(45deg);
+}
+.loading .sk-folding-cube .sk-cube {
+  float: left;
+  width: 50%;
+  height: 50%;
+  position: relative;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.loading .sk-folding-cube .sk-cube:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #FFF;
+  -webkit-animation: sk-foldCubeAngle 2.4s infinite linear both;
+  animation: sk-foldCubeAngle 2.4s infinite linear both;
+  -webkit-transform-origin: 100% 100%;
+  -moz-transform-origin: 100% 100%;
+  -o-transform-origin: 100% 100%;
+  -ms-transform-origin: 100% 100%;
+  transform-origin: 100% 100%;
+}
+.loading .sk-folding-cube .sk-cube2 {
+  -webkit-transform: scale(1.1) rotateZ(90deg);
+  transform: scale(1.1) rotateZ(90deg);
+}
+.loading .sk-folding-cube .sk-cube3 {
+  -webkit-transform: scale(1.1) rotateZ(180deg);
+  transform: scale(1.1) rotateZ(180deg);
+}
+.loading .sk-folding-cube .sk-cube4 {
+  -webkit-transform: scale(1.1) rotateZ(270deg);
+  transform: scale(1.1) rotateZ(270deg);
+}
+.loading .sk-folding-cube .sk-cube2:before {
+  animation-delay: 0.2s;
+}
+.loading .sk-folding-cube .sk-cube3:before {
+  animation-delay: 0.4s;
+}
+.loading .sk-folding-cube .sk-cube4:before {
+  animation-delay: 0.6s;
+}
+@-webkit-keyframes sk-foldCubeAngle {
+  0%, 10% {
+    -webkit-transform: perspective(140px) rotateX(-180deg);
+    transform: perspective(140px) rotateX(-180deg);
+    opacity: 0;
+  }
+  25%, 75% {
+    -webkit-transform: perspective(140px) rotateX(0deg);
+    transform: perspective(140px) rotateX(0deg);
+    opacity: 1;
+  }
+  90%, 100% {
+    -webkit-transform: perspective(140px) rotateY(180deg);
+    transform: perspective(140px) rotateY(180deg);
+    opacity: 0;
+  }
+}
+@keyframes sk-foldCubeAngle {
+  0%, 10% {
+    -webkit-transform: perspective(140px) rotateX(-180deg);
+    transform: perspective(140px) rotateX(-180deg);
+    opacity: 0;
+  }
+  25%, 75% {
+    -webkit-transform: perspective(140px) rotateX(0deg);
+    transform: perspective(140px) rotateX(0deg);
+    opacity: 1;
+  }
+  90%, 100% {
+    -webkit-transform: perspective(140px) rotateY(180deg);
+    transform: perspective(140px) rotateY(180deg);
+    opacity: 0;
+  }
+}
+
+
+
+/* End Site Loading
+================================= */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 992px) {
+    .slide-menu-container {
+      left: -186px;
+    }
+  
+    .control-bar .menu-toggle {
+      cursor: pointer;
+      padding: 8px;
+      display: block;
+      margin-top: 5px;
+      transition: all 0.2s ease-in-out 0s;
+    }
+    .control-bar .menu-toggle .chart {
+      display: block;
+      width: 100%;
+      height: 2px;
+      background-color: #fff;
+      transition: all 0.2s ease-in-out;
+    }
+    .control-bar .menu-toggle .chart:nth-child(2) {
+      margin: 8px 0;
+    }
+  
+    .main-page-content {
+      width: calc(100% - 95px);
+      margin-left: 70px;
+      margin-right: 25px;
+      position: relative;
+      left: 0;
+    }
+  
+    .mobile-menu-active .menu-toggle .chart:nth-child(2) {
+      transform: scale(0);
+    }
+    .mobile-menu-active .menu-toggle .chart:first-child {
+      transform: translateY(10px) rotate(45deg);
+    }
+    .mobile-menu-active .menu-toggle .chart:last-child {
+      transform: translateY(-10px) rotate(-45deg);
+    }
+    .mobile-menu-active .slide-menu-container {
+      left: 44px;
+    }
+    .mobile-menu-active .main-page-content {
+      transform: translateX(230px);
+    }
+  
+    .portfolio .port-box .kayo-taps li {
+      margin-left: 20px;
+      padding: 23px 10px 17px;
+    }
+  }
+  /* 14.2. Screen Width 768px */
+  @media only screen and (max-width: 768px) {
+    body {
+      overflow-Y: visible;
+    }
+  
+    .kayo-icon-box-container .kayo-icon-box .kayo-icon {
+      font-size: 35px;
+    }
+  
+    .full-page {
+      min-height: 100vh;
+      
+    }
+    .full-page#home {
+      height: 100vh;
+    }
+  
+    .slide-menu-container {
+      padding-top: 10px;
+      padding-right: 15px;
+    }
+  
+    .main-page-content {
+      width: calc(100% - 65px);
+      margin-left: 55px;
+      margin-right: 10px;
+    }
+    .main-page-content > section {
+      padding: 10px 0;
+    }
+  
+    .sakura-demo2 .main-page-content > section, .sakura-demo2 .main-page-content > div,
+    .sakura-demo2 .main-page-content .overlay {
+      padding: 80px 0;
+    }
+    .sakura-demo2 .main-page-content > section.small-section, .sakura-demo2 .main-page-content > div.small-section,
+    .sakura-demo2 .main-page-content .overlay.small-section {
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+    .sakura-demo2 .home .intro-section .mr-kayo {
+      font-size: 55px;
+      margin: 10px 0;
+    }
+    .sakura-demo2 .home .intro-section h3 {
+      font-size: 19px !important;
+    }
+    .sakura-demo2 .home .overlay {
+      padding-top: 195px;
+      padding-bottom: 150px;
+    }
+  
+    .kayo-container {
+      padding: 0 20px;
+    }
+  
+    .section-intro .kayo-icon-box-container .kayo-icon-box {
+      width: 80px;
+      height: 80px;
+    }
+    .section-intro .kayo-icon-box-container .kayo-icon-box .kayo-icon {
+      line-height: 80px;
+      font-size: 27px;
+    }
+    .section-intro .kayo-icon-box-container .kayo-icon-box:after {
+      left: calc(50% - 40px);
+      width: 80px;
+    }
+    .section-intro .kayo-icon-box-container .kayo-icon-box:before {
+      left: calc(50% - 40px);
+      width: 80px;
+    }
+    .section-intro h1 {
+      font-size: 24px;
+      margin-top: 12px;
+    }
+  
+    .mrkayo-main-title h2 {
+      font-size: 16px;
+    }
+  
+    .mrkayo-main-title {
+      padding-bottom: 40px;
+    }
+  
+    .kayo-icon-list-box .kayo-list-info p {
+      opacity: 1;
+      top: 0;
+    }
+  
+    .home .intro-section .mr-kayo {
+      font-size: 22px;
+      letter-spacing: 1px;
+      margin: 7px 0;
+    }
+    .home .intro-section h3 {
+      font-size: 16px !important;
+    }
+  
+    .aboutMe .kayo-intro-section .kayo-container {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+    .aboutMe .kayo-service .kayo-container {
+      padding-top: 60px;
+      padding-bottom: 30px;
+    }
+    .aboutMe .my-clients-logo .kayo-container {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+    .aboutMe .aboutMe .my-clients-logo .clients-slider {
+      margin: 0 -10px;
+    }
+    .aboutMe .my-clients-logo .client-logo {
+      margin: 0 10px;
+    }
+    .aboutMe .kayo-facts-about-me .kayo-container {
+      padding-top: 60px;
+      padding-bottom: 10px;
+    }
+  
+    .my-information {
+      padding: 60px 0;
+    }
+    .my-information .kayo-info-detail {
+      padding-top: 15px;
+    }
+    .my-information .kayo-info-detail h3 {
+      font-size: 20px;
+    }
+    .my-information .kayo-info-detail p {
+      line-height: 22px;
+      letter-spacing: 0.4px;
+      font-size: 13px;
+      margin-bottom: 0;
+    }
+    .my-information .my-image img {
+      margin: auto;
+      max-width: 300px;
+      width: 100%;
+    }
+  
+    .testimonials {
+      padding: 60px 0 50px;
+    }
+    .testimonials .mrkayo-main-title {
+      padding-bottom: 30px;
+    }
+    .testimonials .testi-user-info h3 {
+      font-size: 16px;
+    }
+    .testimonials .testi-user-info h5 {
+      font-size: 12px;
+    }
+    .testimonials .testi-desc-box:before {
+      content: none;
+    }
+    .testimonials .testi-desc-box i {
+      display: none;
+    }
+    .testimonials .testi-desc-box p {
+      padding: 0;
+      font-size: 12px;
+      line-height: 22px;
+    }
+  
+    .kayo-facts-about-me .kayo-info-list .single-info .info-icon {
+      font-size: 28px;
+      font-weight: 700;
+    }
+    .kayo-facts-about-me .kayo-info-list .single-info h3 {
+      font-size: 14px;
+    }
+  
+    .portfolio .kayo-intro-section .kayo-container {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+    .portfolio .port-box .kayo-container {
+      padding-top: 60px;
+      padding-bottom: 30px;
+    }
+    .portfolio .port-box .portfolio-items {
+      padding-top: 40px;
+    }
+    .portfolio .port-box .kayo-taps li {
+      margin-left: 10px;
+      padding: 20px 5px;
+      border: 0;
+    }
+  
+    .resume .kayo-intro-section .kayo-container {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+    .resume .kayo-container {
+      padding-top: 60px;
+      padding-bottom: 45px;
+    }
+  
+    .education-workHistory .timeline-title {
+      font-size: 14px;
+      font-weight: 400;
+      letter-spacing: 0.4px;
+    }
+    .education-workHistory .timeline-content .timeline-box .timeline-date {
+      font-size: 12px;
+    }
+    .education-workHistory .timeline-content .timeline-box .timeline-info .timeline-info-header h3 {
+      font-size: 15px;
+    }
+    .education-workHistory .timeline-content .timeline-box .timeline-info .timeline-info-header p {
+      font-size: 12px;
+      line-height: 22px;
+    }
+  
+    .kayo-skills .soft-skills .progress-container {
+      margin-bottom: 40px;
+    }
+    .kayo-skills .soft-skills .progress-container h3 {
+      font-size: 14px;
+      font-weight: 400;
+      margin-top: 15px;
+    }
+    .kayo-skills .technical-skills .progress-bar-container h3 {
+      font-size: 14px;
+    }
+  
+    .blog .kayo-container {
+      padding-top: 60px;
+      padding-bottom: 30px;
+    }
+    .blog .normal-post .entry-header .post-share,
+    .blog .normal-post .entry-header .post-category {
+      display: none;
+    }
+  
+    .contact .kayo-intro-section .kayo-container {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+    .contact .kayo-container {
+      padding-top: 60px;
+      padding-bottom: 30px;
+    }
+    .contact .contact-form .kayo-container {
+      padding-bottom: 60px;
+    }
+    .contact .kayo-form .input-row .form-group {
+      width: 100%;
+      float: none;
+    }
+    .contact .kayo-form .input-row:first-child .form-group:first-child .form-control {
+      border-radius: 15px 15px 0 0;
+    }
+    .contact .kayo-form .input-row:first-child .form-group:last-child .form-control {
+      border-radius: 0;
+    }
+  
+    .kayo-icon-list-box .kayo-list-info h4 {
+      font-size: 15px;
+      margin: 20px 0 10px;
+    }
+    .kayo-icon-list-box .kayo-list-info p {
+      font-size: 12px;
+      line-height: 22px;
+    }
+  
+    .control-bar .copyright {
+      font-size: 14px;
+    }
+  
+    /* navbar */
+    .appsLand-navbar .navbar-header {
+      margin: 0;
+    }
+    .appsLand-navbar .sakura-demo2-menu-toggle {
+      display: block;
+    }
+    .appsLand-navbar .app-links {
+      position: fixed;
+      visibility: hidden;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      box-shadow: 5px 0 25px rgba(0, 0, 0, 0.25);
+      background: rgba(0, 0, 0, 0.5);
+    }
+    .appsLand-navbar .app-links .navbar-nav {
+      background: #2c3e50;
+      margin: 0;
+      position: absolute;
+      top: 0;
+      left: -300px;
+      height: 100%;
+      width: 270px;
+      overflow: auto;
+      transition: all 0.5s ease-in-out 0s;
+    }
+    .appsLand-navbar .app-links .navbar-nav > li {
+      padding: 0;
+      border-top: 1px solid #3a4a5d;
+      border-bottom: 1px solid #22303e;
+    }
+    .appsLand-navbar .app-links .navbar-nav > li.mobile-size-logo {
+      box-shadow: 0 5px 15px  #1b2838;
+      z-index: 2;
+      padding: 25px 0;
+    }
+    .appsLand-navbar .app-links .navbar-nav > li.mobile-size-logo a {
+      padding: 0;
+      display: inline-block;
+    }
+    .appsLand-navbar .app-links .navbar-nav > li.mobile-size-logo a:hover {
+      background: none !important;
+    }
+    .appsLand-navbar .app-links .navbar-nav > li > a, .appsLand-navbar .app-links .navbar-nav > li > span {
+      padding: 15px 30px;
+    }
+    .appsLand-navbar .app-links .navbar-nav > li > a:hover, .appsLand-navbar .app-links .navbar-nav > li > span:hover {
+      background: #3a4a5d !important;
+      color: #1894ff;
+    }
+    .appsLand-navbar .app-links .navbar-nav > li > a:before, .appsLand-navbar .app-links .navbar-nav > li > span:before {
+      content: none;
+    }
+    .appsLand-navbar .app-links .navbar-nav > li.active > a, .appsLand-navbar .app-links .navbar-nav > li.active > span {
+      color: #1894ff;
+      background: #3a4a5d !important;
+    }
+    .appsLand-navbar .app-links .navbar-nav > li .dropdown-menu {
+      opacity: 1;
+      visibility: visible;
+      border: 0;
+      width: 100%;
+      min-width: 0;
+      position: static !important;
+      box-shadow: none;
+    }
+    .appsLand-navbar .navbar-brand img {
+      margin: 0;
+      height: 100%;
+    }
+    .appsLand-navbar.sakura-demo2-mobile-menu-active .app-links {
+      visibility: visible;
+    }
+    .appsLand-navbar.sakura-demo2-mobile-menu-active .app-links .navbar-nav {
+      left: 0;
+    }
+  }
