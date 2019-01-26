@@ -228,7 +228,7 @@ if (demo2Check) {
 $(window).on('load', function () {
     $(".loading").animate({
         "top": "-100%"
-    }, 500, function () {
+    }, 1800, function () {
         $(this).remove();
     });
 });
